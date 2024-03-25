@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script>
+ $(document).ready(
+ function()
+    {
+        $("#psk").click(function()
+        {
+            $("#to").toggle(1000);
+        });
+    });
+   </script>
+</head>
+<style>
+   #q {
+      width: 100%;
+      height: 50%;
+      text-decoration: none;
+   }
+   #sam{
+      width: 100%;
+      height: 50%;
+      text-decoration: none;
+      color: white;
+      margin-left: 560px;
+   }
+   .hb{
+      font-size:36px;
+      display: none;
+      
+
+   }
+   #w {
+      width: 100%;
+      height: 120px;
+      background-color: rgb(255, 0, 0);
+        border: 2px solid black;
+      margin-bottom: -120px;
+   }
+
+   #divz {
+      padding: 0;
+      margin: 0;
+      margin: 10px;
+      margin-bottom: 20px;
+      margin-left: 35px;
+      float: left;
+      width: 15%;
+      height: auto;
+      
+      
+   }
+
+   #home {
+      margin: 10px;
+      margin-left: 700px;
+      float: left;
+      margin-right: 10px;
+      font-size: 30px;
+   }
+
+   #about {
+      float: right;
+      margin: 10px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      font-size: 30px;
+      float: left;
+      margin-right: 100px;
+   }
+
+   #contact {
+      float: right;
+      margin-right: 500px;
+      margin: 10px;
+      font-size: 30px;
+
+   }
+
+   #div4 {
+      float: right;
+   }
+
+   #p1 {
+      color: white;
+      text-align: center;
+      margin: 2px;
+      padding: 50px;
+       font-size: 30px;
+      height: 10%;
+      color: black;
+   }
+
+   ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 35px;
+      float: right;
+      color: white;
+   }
+
+   .p2 {
+      background-color: red;
+      height: 20%;
+      width: 98%;
+      clear: both;
+      padding: 20px;
+      margin-top: -100000px;
+   }
+
+   .p3 {
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+   }
+ .ma{
+   background-color: rgb(0, 83, 155);
+   
+ }
+   #p5 {
+      text-align: center;
+      font-size: 30px;
+   }
+
+   button {
+      width: 50%;
+      height: 6%;
+      margin: 100px;
+      border: solid white;
+      border-radius: 90px;
+      margin-left: 350px;
+      font-size: 50px;
+   }
+   
+   #div1 {
+      float: left;
+      padding: 10px;
+      margin: 100px;
+      margin-right: 20px;
+      margin-bottom: 300px;
+      border: 2px solid rgb(255, 255, 255);
+   
+
+   }
+
+   #di1 {
+      float: left;
+      width: 20%;
+      height: 30%;
+      background-color: rgba(1, 1, 1, 0.246);
+      color: rgb(255, 255, 255);
+      border: solid rgba(160, 136, 136, 0.136) 20px;
+      font-size: 25px;
+   }
+
+   #di2 {
+      float: left;
+      width: 20%;
+      height: 30%;
+      background-color: rgba(0, 0, 0, 0.246);
+      color: rgb(255, 255, 255);
+      border: solid rgb(160, 136, 136, 0.136) 20px;
+      font-size: 25px;
+
+   }
+
+   #di3 {
+      float: left;
+      width: 20%;
+      height: 30%;
+      background-color: rgba(0, 0, 0, 0.246);
+      color: rgb(255, 255, 255);
+      border: solid rgb(160, 136, 136, 0.136) 20px;
+      font-size: 25px;
+   }
+
+   #di4 {
+      float: left;
+      width: 20%;
+      height: 30%;
+      background-color: rgba(0, 0, 0, 0.246);
+      color: rgb(255, 255, 255);
+      border: solid rgb(160, 136, 136, 0.136) 20px;
+      font-size: 25px;
+   }
+
+   #div5 {
+      border: 0px solid rgba(156, 0, 0, 0.195);
+      
+      height: 100px;
+      clear: both;
+      margin: 2px;
+      margin-top: 200px;
+      font-size: 40px;
+      
+      background-color: aliceblue;
+
+
+
+   }
+
+   #div6 {
+      width: 50%;
+      background-color: none;
+      float: right;
+      
+      margin-right: 20px;
+      height: 120%;
+      background-color: rgb(255, 255, 255);
+      margin-top: 100px;
+   }
+
+   #div7 {
+      width: 45%;
+      background-color: none;
+      float: left;
+      border: 2px solid;
+      margin-right: 20px;
+      height: 100%;
+      box-shadow: 10px 10px 10px 10px white;
+   
+   }
+   .qw{
+    background-image: url(img/Untitled\ design.png);
+   }
+   .jk{
+    width: 84%;font-size: 40px; color: white;text-align: center;padding: 90px;
+   }
+   .nj{
+    margin-left: 100px;
+   }
+   .lk{
+    width: 90%;font-size: 30px; color: white;text-align: center; margin-top: -50px; margin-left: 60px;
+   }
+   .mn{
+    margin-left: 100px;
+   }
+   .hg{
+    width: 20%;margin-left: 600px;margin-top: 100px; margin-bottom: 0px; min-height: 10%; background-color: rgb(251, 251, 251);border-radius: 20px;
+   }
+   .uh{
+    text-align: center;padding: 20px;
+   }
+   .tr{
+    color: rgb(255, 0, 0); text-decoration: none;
+   }
+   .oi{
+    margin-top: 100px; width: 100%; margin-left: 0px; margin-bottom: 500px;
+   }
+   .as{
+    float: left;width: 20%; background-color: rgba(255, 255, 255, 0.752); border: 0px solid black; margin-left: 39px; padding: 10px; text-align: center; box-shadow: 10px 10px 20px 10px;
+   }
+   .bg{
+    width: 20%; background-color: rgb(255, 0, 0); height: 10px;margin-left: 120px;
+   }
+   .za{
+    font-size: 50px;margin-left: 600px; ;
+   }
+   .la{
+    background-color: rgb(255, 255, 255);
+   }
+   .hz{
+      clear: both; margin: 0px; box-shadow: 10px 20px 60px 20px rgba(0, 0, 0, 0); margin-left: 150px; margin-bottom: 100px;
+      
+   }
+   .pa{
+    float: left; margin-top: 200px; margin-left: 80px; box-shadow: 20px 20px 20px 20px black;
+   }
+   .df{
+   height: 50px;  float: right; width: 50%; background-color:rgb(220, 218, 215); border: 0px solid rgba(0, 0, 0, 0); border-radius: 2px; box-shadow: 0px 0px 0px 0px; margin-top: 50px;
+   }
+   .bl{
+    clear: both; margin-bottom: 300px;
+   }
+   .re{
+    height: 50px; float: left;width: 50%; background-color: rgb(255, 255, 255); height: 40%;
+   }
+   .he{
+    margin-top: 60px; margin-left: 60px;
+   }
+   .oe{
+    float: right; width: 50%; background-color: rgb(255, 255, 255); height: 40%;
+   }
+   .yo{
+    padding: 20px; margin-top:90px;
+   }
+   .dp{
+    padding: 5px;margin-top: -40px; font-size: 20px;
+   }
+   .yu{
+    float: left; width: 50%; background-color: rgb(255, 255, 255); height: 40%;
+   }
+   .bo{
+    float: right; width: 50%; background-color: rgb(255, 255, 255); height: 40%;
+   }
+   .mo{
+    padding: 20px; margin-top:90px;
+   }
+   .ko{
+    padding: 5px;margin-top: -40px; font-size: 20px; margin-left: 30px;
+   }
+   .ja{
+    float: left;width: 50%; background-color: rgb(255, 255, 255); height: 40%;
+   }
+   .va{
+    margin-top: 60px; margin-left: 60px;
+   }
+   .tb{
+    clear: both; margin-bottom: 300px;
+   }
+   .sp{
+    clear: both; margin-bottom: 300px;
+   }
+   .ng{
+    margin-top: 60px; margin-left: 60px;
+   }
+   .df{
+    float: right;width: 50%; background-color: rgb(255, 255, 255); height: 40%;
+   }
+   .kd{
+    padding: 5px;margin-top: -40px; font-size: 20px; margin-left: 30px;
+   }
+   .iu{
+    padding: 20px; margin-top:90px;margin-left: 30px;
+   }
+   #img{
+      width: 100%;
+      height: 120%;
+      background-image: url(img/malubgimg_files/iconASME.jpg);
+   }
+   /* <!--------internal css--> */
+   .y{
+      width: 100%;
+   }
+   .a{
+      background-color: red;
+   }
+   .b{
+   color: white; text-decoration: none;
+   }
+   .c{
+      font-size: 60; margin-left: 600px; color: rgb(0, 0, 0)
+   }
+   .d{
+      font-size: 50px; margin-left: 600px; margin-top: -50px;
+   }
+   .e{
+      width: 75%;text-align: center;  margin-left: 160px; border: 2px solid rgb(255, 0, 0) ;border-radius: 20px;padding: 50px;margin-top: -30px;margin-bottom: 100px; background-color: rgb(255, 255, 255);
+   }
+   .f{
+      font-size: 20px;
+   }
+  
+   
+   .r{
+      margin-left: 200px;
+      display: none;
+     
+   }
+   .x{
+      background-color:  rgba(219, 200, 200, 0.171);
+      border:  0px solid black
+   }
+   .bz{
+      clear: both;
+      font-size: 50px;
+      margin-top: 1200px;
+      margin-left: 400px;
+
+   }
+   @media screen and (max-width :800px){
+      #w{
+         border: 1px solid black;
+         width: 100%;
+         padding: 0;
+         margin: 0;
+         height: auto;
+         /* height: 100px; */
+      }
+      .icons{
+         width: 100%;
+         margin: 0;
+         text-align: right;
+         padding: 0;
+         border: 0px solid black;
+      }
+      #divz{
+         margin: 0;
+         padding: 0;
+           margin: 10px 0 0 10px;
+         padding: 0;
+         float: left;
+         width: 200px;
+         height: auto;
+         margin-top: -20px;
+      }
+      .hb{
+         margin: 0;
+         padding: 0;
+      display: block;
+      margin: 20px;
+      }
+      .c{
+         margin: 0;
+         padding: 0;
+         width: 100%;
+         margin-left: 0px;
+      }
+      .d{
+         margin: 0;
+         padding: 0;
+         width: 300;
+         margin-left: 0px;
+      }
+      #w ul{
+         margin: 0;
+         padding: 0;
+         width: 100%;
+         padding: 0;
+         height: 180px;
+         margin: 0;
+      }
+      #w ul li{
+         margin: 0;
+         padding: 0;
+         width: 100%;
+         height: auto;
+         padding: 0;
+         text-align: center;
+         padding: 10px;
+         margin: 0;
+         
+         
+      }
+      
+   }
+   @media screen and (max-width:800px) {
+      .e{
+         margin: 0;
+         padding: 0;
+         width: 60%;
+         height: auto;
+         margin-left: 10px;
+         text-align: justify;
+         border: 0px solid black;
+
+      }
+      .f{
+         margin: 0;
+         padding: 0;
+         width: 260px;
+         font-size: 12px;
+         margin-left: -40px;
+         height:auto;
+         border: 0px solid black;
+      }
+      
+   }
+   @media screen and (max-width:800px) {
+      .g{
+         margin: 0;
+         padding: 0;
+         margin: 0;
+         padding: 0;
+         border: 2px solid black;
+         border: 0px solid black;
+         
+      }
+      .h{
+         margin: 0;
+         padding: 0;
+         width: 190px;
+         height: auto;
+         margin-left: 10px;
+         margin-top: 20px;
+         border: 0px;
+         border: 0px solid black;
+         border: 0px solid black;
+       
+      }
+      .k{
+         margin: 0;
+         padding: 0;
+         width: 190px;
+         height: auto;
+         margin-left: 10px;
+         margin-top: 600px;
+         border: 0px;
+         border: 0px solid black;
+      }
+      .n{
+         margin: 0;
+         padding: 0;
+         width: 190px;
+         height: auto;
+         margin-left: 10px;
+         margin-top: 10px;
+         border: 0px;
+         margin-right: 10px;
+         border: 0px solid black;
+      }
+      .bz{
+         margin: 0;
+         padding: 0;
+       display: none;  font-size: 50px;margin-left: 600px; clear: both; margin-top: 800px; padding: 100px; margin-left: 250px;
+       border: 0px solid black;
+         }
+      
+      }
+  @media screen and (max-width:800px) {
+   .q{
+      margin: 0;
+         padding: 0;
+      width: 20%;
+      height: 10px;
+      border: 0px solid black;
+    
+   }
+    .jk{
+      margin: 0;
+         padding: 0;
+      margin-left: -90px;
+      padding: 100px;
+      font-size: 20px;
+      width: 70%;
+      margin-top: -100px;
+      border: 0px solid black;
+     
+   }
+   .lk{
+      margin: 0;
+         padding: 0;
+    margin-left: 40px;
+    padding: 60;
+    margin: 0;
+    margin-left: 20px;
+    font-size: 19px;
+    margin-top: -70px;
+    border: 0px solid black;
+   
+   }
+   .hg{
+      margin: 0;
+         padding: 0;
+      margin-left: 70px;
+      width: 200px;
+      margin-top: 40px;
+      border: 0px solid black;
+     
+   }
+   .tr{
+      margin: 0;
+         padding: 0;
+      width: 800px;
+      margin: 0;
+      padding: 0;
+      border: 0px solid black;
+   }
+  }
+  @media screen and (max-width:800px) {
+   .oi{
+      margin: 0;
+         padding: 0;
+      width: 100%;
+      border: 0px solid black;
+   }
+   .as{
+      margin: 0;
+         padding: 0;
+      width: 90%;
+     margin-left: 0px;
+      margin-right: -100px;
+      border: 0px solid black;
+   }
+   .za{
+      margin: 0;
+         padding: 0;
+      margin-left: -30px;
+      width: 100%;
+      font-size: 40px;
+      margin-top: 1100px;
+      padding: 20px;
+      text-align: center;
+      border: 0px solid black;
+   }
+   .pa{
+      margin: 0;
+         padding: 0;
+      margin-left: 6px;
+      border: 0px solid black;
+   }
+   .df{
+      margin: 0;
+         padding: 0;
+      width: 100%;
+      border: 0px solid black;
+   }
+   
+   .he{
+      margin: 0;
+         padding: 0;
+      margin-left: 100px;
+      border: 0px solid black;
+   }
+   .oe{
+      margin: 0;
+         padding: 0;
+      font-size: 15px;
+      width: 100%;
+      margin-left: 00px;
+      margin-top: 30px;
+      text-align: center;
+      border: 0px solid black;
+      
+   }
+   .yo{
+      margin: 0;
+         padding: 0;
+      width: 100%;
+      font-size: 20px;
+      margin-top: -30px;
+      text-align: center;
+      margin-left: -20px;
+      border: 0px solid black;
+   }
+   .yu{
+      margin: 0;
+         padding: 0;
+      margin-left: 10px;
+      margin-top: 130px;
+      width: 100%;
+      border: 0px solid black;
+   }
+   .dp{
+      margin: 0;
+         padding: 0;
+      text-align: justify;
+      padding: 20px;
+      border: 0px solid black;
+   }
+   .iu{
+      margin: 0;
+         padding: 0;
+      width: 100%;
+      font-size: 20px;
+      margin-top: -30px;
+      text-align: center;
+      margin-left: -20px;
+      border: 0px solid black;
+   }
+   .kd{
+      margin: 0;
+         padding: 0;
+      text-align: justify;
+      padding: 20px;
+      border: 0px solid black;
+   }
+   .df{
+      margin: 0;
+         padding: 0;
+      font-size: 15px;
+      width: 100%;
+      margin-left: 00px;
+      margin-top: 30px;
+      text-align: center;
+      border: 0px solid black;
+      
+   }
+
+   
+   .ja{
+      margin: 0;
+         padding: 0;
+      margin-left: 10px;
+      margin-top: 130px;
+      width: 100%;
+      box-shadow: 0px 0px 0px 0px;
+      border: 0px solid black;
+   }
+   .bo{
+      margin: 0;
+         padding: 0;
+      font-size: 15px;
+      width: 100%;
+      margin-left: 00px;
+      margin-top: 30px;
+      text-align: center;
+      border: 0px solid black;
+      
+   }
+   .ma{
+      margin: 0;
+         padding: 0;
+      width: 70px;
+      margin-left: -500px;
+      font-size: 20px;
+      border: 0px solid black;
+   }
+   .bz{
+      margin: 0;
+         padding: 0;
+      margin-left: -100px;
+      font-size: 16px;
+      display: none;
+      border: 0px solid black;
+   }
+   .ls{
+      margin: 0;
+         padding: 0;
+      display: none;
+      border: 0px solid black;
+   
+   }
+   .p3{
+      margin: 0;
+         padding: 0;
+      margin-left: -60px;
+      border: 0px solid black;
+   }
+   .q{
+      margin: 0;
+         padding: 0;
+text-decoration: none;
+color: white;
+border: 0px solid black;
+   }
+   #to{
+      margin: 0;
+         padding: 0;
+    
+   }
+
+   
+   
+  }
+       
+
+</style>
+
+<body  class="x">
+  <div id="w">
+   <div class="icons"><img id="divz" src="img/malubgimg_files/cropped-160-maluwed-logo-new-1-removebg-preview.png">
+      <i class="fa fa-bars hb" id="psk" ></i>
+   </div>
+   <div id="to">
+      <ul >
+         <li><a href="contact.html" class="b" ><b>CONTACT</b></a></li>
+         <li><a href="product.html" class="b" ><b>PRODUCT</b></a></li>
+         <li><a href="aboutus.html" class="b" ><b>ABOUT</b></a></li>
+       
+        
+        
+         
+         <li> <a href="index.html" class="b" ><b>HOME</b></a></li>
+         
+       
+         
+      </ul>
+   </div>
+   </div>
+   <div id="q" class="">
+      <div id="p1">
+        
+      </div>
+     </div>
+ <div id="q" class="qw">
+
+      <div class="jk"><b>MANUFACTURER OF ALL TYPES OF WELDING</b> <br class="nj"><b>ELECTRODES AND WIRES</b><br></div>
+      <div class="lk">India's Largest selling Maluweld ! <br class="mn" >A wide range of products to cater every demand<br></div>
+      <div class="hg"><h1 class="uh"><a href="contact.html" class="tr">CONTACT</a></h1></div>
+      
+   </div>
+   <div class="oi">
+      <div class="as"><h1>10+ YEARS EXPERIENCE<br><h1 class="bg"></h1><p>Delivering quality services and satisfaction to our clients from the past 10+ years.</p></div>
+      <div class="as"><h1>CERTIFIED COMPANY<br><h1 class="bg"></h1><p>Malu Weld is an ISO 9001 certified company equipped with best Quality Management.</p></div>
+      <div class="as"><h1>DISTRIBUTION NETWORK<br><h1 class="bg"></h1><p>Maluweld products are distributed across India and in various countries across the world.</p></div>
+      <div class="as"><h1>EXPERT <br>TEAM<br><h1 class="bg"></h1><p>Our team is filled with people having wide range of experience in the welding field.</p></div>
+   </div>
+   <div class="za"><b class="la">OUR EXPERTISE</b></div>
+   </div>
+
+   <div style="clear: both;">
+      <div class="pa"><img src="img/our.jpg" width="100%" height="100% border-radius20px; border20px solid black;"></div>
+      <div class="df">
+         <div class="bl">
+           <div class="re"><img src="img/malubgimg_files/z.PNG" width="60%" height="70%" class="he"></div>
+           <div class="oe" height="10%"><h2 class="yo">WE ARE PROFESSIONAL ORGANISATION</h2><br><p class="dp">We make professional quality welding consumables for a wide range of materials.</p></div>
+         </div><br>
+         <div class="tb">
+           <div class="yu" height="10%"><h2 class="iu">WE ARE TRUSTED TEAM MEMBERS</h2><br><p class="kd">Wealth of experience and broad range of products earns us the trust of clients.</p></div>
+           <div class="df"><img src="img/malubgimg_files/y.PNG" width="60%" height="70%" class="ng"></div>
+         </div><br>
+         <div class="sp">
+            <div class="ja"><img src="img/malubgimg_files/x.PNG" width="60%" height="70%" class="va"></div>
+           <div class="bo" height="10%"><h2 class="mo">WE ARE EXPERT PRODUCTION TEAM</h2><br><p class="ko">Our expert production team makes the finest quality products.</p></div>
+         </div>
+      </div>
+   </div>
+
+   
+      
+
+   <div class="bz">CLIENTS WE'VE WORKED WITH</b><br class="ls">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</div>
+
+
+   <div class="hz">
+      <div class="ma">
+      <div style="float: left; width: 15%; margin-left: -40px;height: 200px; "><img src="img/malubgimg_files/Jain-Irrigation-Systems-Ltd.jpg" width="90%" height="100%" style="margin-bottom: 10px;"></div>
+      <div style="float: left;  width: 15%; height: 200px; "><img src="img/malubgimg_files/Grasim-Industries-Ltd.jpg" width="90%" height="100%" style="margin-bottom: 10px;"></div>
+      <div style="float: left;  width: 15%;  height: 200px; "><img src="img/malubgimg_files/clientele_clip_image013_0000.jpg" width="90%" height="100%" style="margin-bottom: 10px;"></div>
+      <div style="float: left;  width: 25%;  height: 200px; "><img src="img/malubgimg_files/beml-title-300x75.gif" width="90%" height="100%" style="margin-bottom: 10px;"></div>
+      <div style="float: left;  width: 15%;  height: 200px; "><img src="img/malubgimg_files/Aditya_Birla_Group_logo-300x152.png" width="100%" height="100%" style="margin-bottom: 10px;"></div>
+      <div style="float: left;  width: 15%;height: 200px; "><img src="img/malubgimg_files/download.jpg" width="100%" height="100%"></div>
+      
+   </div>
+</div>
+
+         
+    
+   
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+<div class="p2">
+   <h2 class="p3">Copyright © 2023 Malu Weld</h2><p><a href="https://www.pskitservices.com/" id="sam">Developed by PSK Technologies Pvt. Ltd. IT Company</a></p>
+</div>
+
+</body>
+
+</html>

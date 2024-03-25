@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script>
+$(document).ready(
+ function()
+    {
+        $("#psk").click(function()
+        {
+            $("#to").toggle(1000);
+        });
+    });
+   </script>
+</head>
+<style>
+   #q {
+      width: 100%;
+      height: 50%;
+   }
+   .hb{
+      font-size:36px;
+      display: none;
+
+   }
+   #w {
+      width: 100%;
+      height: 120px;
+      background-color: rgb(255, 0, 0);
+      border: 0px solid black;
+      margin-bottom: -120px;
+   }
+
+   #divz {
+      margin: 10px;
+      margin-bottom: 20px;
+      margin-left: 35px;
+      float: left;
+      width: 15%;
+      height: 90%;
+      
+      
+   }
+
+   #home {
+      margin: 10px;
+      margin-left: 700px;
+      float: left;
+      margin-right: 10px;
+      font-size: 30px;
+   }
+
+   #about {
+      float: right;
+      margin: 10px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      font-size: 30px;
+      float: left;
+      margin-right: 100px;
+   }
+
+   #contact {
+      float: right;
+      margin-right: 500px;
+      margin: 10px;
+      font-size: 30px;
+
+   }
+
+   #div4 {
+      float: right;
+   }
+
+   #p1 {
+      color: white;
+      text-align: center;
+      margin: 2px;
+      padding: 50px;
+       font-size: 30px;
+      height: 10%;
+      color: black;
+   }
+
+   ul li {
+      list-style: none;
+      display: inline-block;
+      padding: 35px;
+      float: right;
+      color: white;
+   }
+
+   .p2 {
+      background-color: red;
+      height: 20%;
+      width: 100%;
+      clear: both;
+      padding: 20px;
+   }
+
+   .p3 {
+      color: white;
+      text-align: center;
+      padding-top: 20px;
+   }
+
+   #p5 {
+      text-align: center;
+      font-size: 30px;
+   }
+
+   button {
+      width: 50%;
+      height: 6%;
+      margin: 100px;
+      border: solid white;
+      border-radius: 90px;
+      margin-left: 350px;
+      font-size: 50px;
+   }
+   
+   #div1 {
+      float: left;
+      padding: 10px;
+      margin: 100px;
+      margin-right: 20px;
+      margin-bottom: 300px;
+      border: 2px solid rgb(255, 255, 255);
+   
+
+   }
+
+   #di1 {
+      float: left;
+      width: 20%;
+      height: 30%;
+      background-color: rgba(1, 1, 1, 0.246);
+      color: rgb(255, 255, 255);
+      border: solid rgba(160, 136, 136, 0.136) 20px;
+      font-size: 25px;
+   }
+
+   #di2 {
+      float: left;
+      width: 20%;
+      height: 30%;
+      background-color: rgba(0, 0, 0, 0.246);
+      color: rgb(255, 255, 255);
+      border: solid rgb(160, 136, 136, 0.136) 20px;
+      font-size: 25px;
+
+   }
+
+   #di3 {
+      float: left;
+      width: 20%;
+      height: 30%;
+      background-color: rgba(0, 0, 0, 0.246);
+      color: rgb(255, 255, 255);
+      border: solid rgb(160, 136, 136, 0.136) 20px;
+      font-size: 25px;
+   }
+
+   #di4 {
+      float: left;
+      width: 20%;
+      height: 30%;
+      background-color: rgba(0, 0, 0, 0.246);
+      color: rgb(255, 255, 255);
+      border: solid rgb(160, 136, 136, 0.136) 20px;
+      font-size: 25px;
+   }
+
+   #div5 {
+      border: 0px solid rgba(156, 0, 0, 0.195);
+      
+      height: 100px;
+      clear: both;
+      margin: 2px;
+      margin-top: 200px;
+      font-size: 40px;
+      
+      background-color: aliceblue;
+
+
+
+   }
+
+   #div6 {
+      width: 50%;
+      background-color: none;
+      float: right;
+      
+      margin-right: 20px;
+      height: 120%;
+      background-color: rgb(255, 255, 255);
+      margin-top: 100px;
+   }
+
+   #div7 {
+      width: 45%;
+      background-color: none;
+      float: left;
+      border: 2px solid;
+      margin-right: 20px;
+      height: 100%;
+      box-shadow: 10px 10px 10px 10px white;
+   
+   }
+   #img{
+      width: 100%;
+      height: 120%;
+      background-image: url(img/malubgimg_files/iconASME.jpg);
+   }
+   /* <!--------internal css--> */
+   .y{
+      width: 100%;
+      height: 500px;
+   }
+   .a{
+      background-color: red;
+   }
+   .b{
+   color: white; text-decoration: none;
+   }
+   .c{
+      font-size: 60; margin-left: 600px; color: rgb(0, 0, 0)
+   }
+   .d{
+      font-size: 50px; margin-left: 600px; margin-top: -50px;
+   }
+   .e{
+      width: 75%;text-align: center;  margin-left: 160px; border: 2px solid rgb(255, 0, 0) ;border-radius: 20px;padding: 50px;margin-top: -30px;margin-bottom: 100px; background-color: rgb(255, 255, 255);
+   }
+   .f{
+      font-size: 20px;
+   }
+   g{
+      margin-top: 100px;
+   }
+   .h{
+      color: rgb(0, 0, 0); float: left; background-color: white; width: 20%;text-align: center; margin-left: 70px; border: 2px solid rgb(255, 0, 0) ;border-radius: 20px;padding: 50px;margin-top: 5px;margin-bottom: 100px;
+   }
+   .i{
+      width: 50%; height: 20%;
+   }
+   .j{
+      font-size: 20px;
+   }
+   .k{
+    color: rgb(0, 0, 0); float:center; background-color: white; width: 20%;text-align: center; margin-left: 550px; border: 2px solid rgb(255, 0, 0) ;border-radius: 20px;padding: 50px;margin-top: 5px;margin-bottom: 100px; 
+      }
+   .l{
+      width: 50%; height: 20%;
+   }
+   .m{
+      font-size: 20px;
+   }
+   .n{
+    color: rgb(0, 0, 0); margin-right: 80px; float: right; background-color: white; width: 20%;text-align: center; margin-left: 70px; border: 2px solid rgb(255, 0, 0) ;border-radius: 20px;padding: 50px;margin-top: 5px;margin-bottom: 100px; margin-top: -587px;
+   }
+   .o{
+      width: 50%; height: 20%;
+   }
+   .p{
+      font-size: 20px;
+   }
+   .q{
+      color: white; margin-left: 550px; text-decoration: none; font-size: 20px;
+   }
+   .r{
+      margin-left: 200px;
+      display: none;
+     
+   }
+   .x{
+      background-color:  rgba(181, 172, 172, 0.171);
+   }
+   .bal{
+      font-size: 50px;
+      margin-top: -100px;
+      margin-bottom: 100px;
+      color: rgb(0, 0, 0);
+      margin-left: 600px;
+      background-color: antiquewhite;
+
+   }
+   @media screen and (max-width :800px){
+      #w{
+         border: 1px solid black;
+         width: 100%;
+         padding: 0;
+         margin: 0;
+         height: auto;
+         /* height: 100px; */
+         margin-bottom: -100px;
+      }
+      .icons{
+         width: 100%;
+         margin: 0;
+         text-align: right;
+         padding: 0;
+         border: 0px solid black;
+      }
+      #divz{
+           margin: 10px 0 0 10px;
+         padding: 0;
+         float: left;
+         width: 200px;
+         height: auto;
+         margin-top: -10px;
+         text-align: center;
+      }
+      .hb{
+      display: block;
+      margin: 20px;
+      }
+      .c{
+         width: 100%;
+         margin-left: 0px;
+      }
+      .d{
+         width: 300;
+         margin-left: 0px;
+      }
+      #w ul{
+         width: 100%;
+         padding: 0;
+         height: 180px;
+         margin: 0;
+      }
+      #w ul li{
+         width: 100%;
+         height: auto;
+         padding: 0;
+         text-align: center;
+         padding: 10px;
+         margin: 0;
+      }
+      
+   }
+   @media screen and (max-width:800px) {
+      .e{
+         width: 60%;
+         height: auto;
+         margin-left: 10px;
+         text-align: justify;
+
+      }
+      .f{
+         width: 260px;
+         font-size: 12px;
+         margin-left: -40px;
+         height:auto;
+      }
+      
+   }
+   @media screen and (max-width:800px) {
+      .g{
+         margin: 0;
+         padding: 0;
+         
+         border: 0px solid black;
+         
+      }
+      .h{
+         width: 190px;
+         height: auto;
+         margin-left: 10px;
+         margin-top: 20px;
+         border: 0px;
+         border: 0px solid black;
+         
+       
+      }
+      .k{
+         width: 190px;
+         height: auto;
+         margin-left: 10px;
+         margin-top: 600px;
+         border: 0px;
+         
+      }
+      .n{
+         width: 190px;
+         height: auto;
+         margin-left: 10px;
+         margin-top: 10px;
+         border: 0px;
+         margin-right: 10px;
+         
+      }
+      
+   }
+  @media screen and (max-width:800px) {
+   .p3{
+      width: 100%;
+      margin-left: -17px;
+      
+   }
+   .q{
+      margin-left: 50px;
+     text-align: center;
+     font-size: 7px;
+   }
+   .p2{
+      width: 270px;
+      padding: 20px;
+      
+   }
+  }
+       
+
+</style>
+
+<body  class="x">
+  <div id="w">
+   <div class="icons"><img id="divz" src="img/malubgimg_files/cropped-160-maluwed-logo-new-1-removebg-preview.png">
+      <i class="fa fa-bars hb" id="psk" ></i>
+   </div>
+   <div id="to">
+      <ul>
+         <li><a href="contact.html" class="b"><b>CONTACT</b></a></li>
+         <li><a href="product.html" class="b"><b>PRODUCT</b></a></li>
+         <li><a href="aboutus.html" class="b"><b>ABOUT</b></a></li>
+         <li> <a href="index.html" class="b"><b>HOME</b></a></li>
+      </ul>
+   </div>
+   </div>
+   <div id="q" class="">
+      <div id="p1">
+        
+      </div>
+     </div>
+       <div><img src="img/malubgimg_files/c.jpg" class="y"> <div class="bal">OUR PRODUCT</div></div>     
+     <div>
+      <h1></h1><h1 class="c">What Malu Weld Is</h1><h1 class="d">-----------------</h1><br>
+      <div class="e"><p class="f">Malu Weld is an ISO 9001 certified company equipped with best Quality Management. Malu Electrodes has been serving the Indian industry with finest range of welding consumables since 2001. Maluweld products are distributed across India and in various countries across the world. We manufacture and export welding electrodes and wires. The company seeks to develop new, high quality product families faster, with the primary focus on long-term benefits. The constant development of welding processes is an important part of this work and goes a long way in realizing the key objective of customer satisfaction. Delivering quality services and satisfaction to our clients from the past 10+ years. Our team is filled with people having wide range of experience in the welding field.</p></div>
+   </div>
+
+
+
+
+
+     <div class="g">
+      <br><br> <div class="h"><br><br><h2>Welding Electrode</h2><br><p class="j">The welding electrode is connected to the welding machine, carrying welding current, and establishes an electric arc to fuse the metals for joining. The coating protects the metal from damage.
+
+
+      </p></div>
+    </div>
+    <div>
+      <br><br> <div class="h"><br><br><h2>Bare Electrodes</h2><br><p class="j">These electrodes do not have a coating of flux on them. These electrodes are often used in automatic and semiautomatic welding, they are metal rods with a pointed tip that create an electrical arc between the electrode and the metal.
+      </p></div>
+    </div>
+    <div>
+      <br><br> <div class="h"><br><br><h2>Coated Electrodes
+      </h2><br><p class="j">A welding specialist will be able to restore damaged cars by fusing the metal back together, as well as refilling crevices that have occurred due to collision or general wear and tear.</p></div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+    <div class="g">
+      <br><br> <div class="h"><br><br><h2>Lightly Coated Electrodes</h2><br><p class="j">Welding with the equipment which needs the operator manipulation or adjustment in response to changes in welding condition.The torch, gun, or electrode holder is held by a mechanical device.</p></div>
+    </div>
+    <div>
+      <br><br> <div class="h"><br><br><h2>Heavily Coated Electrodes
+      </h2><br><p class="j">A Heavily coated electrodes contain a heavy layer of coating. The commonly used materials for coating are titanium-oxide, silica, flour, asbestos clay and calcium carbonate.
+      </p></div>
+    </div>
+    <div>
+      <br><br> <div class="h"><br><br><h2>Wire Electrodes
+      </h2><br><p class="j">During welding, an electrode is a metal wire that is used to conduct current and provide the filler material for the weld joint. It can be consumable or non-consumable, depending on the welding process.</p></div>
+    </div>
+    </div>
+    </div>
+
+
+      
+
+
+
+
+
+</div>
+
+<div class="p2">
+   <h2 class="p3">Copyright © 2023 Malu Weld</h2><p><a href="https://www.pskitservices.com/" class="q">Developed by PSK Technologies Pvt. Ltd. IT Company</a></p>
+</div>
+
+</body>
+
+</html>
